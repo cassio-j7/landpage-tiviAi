@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Menu, X } from "lucide-react"
+import { Menu, X } from 'lucide-react'
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -136,7 +136,7 @@ export default function Navbar() {
               href="#"
               className="px-4 py-2 border border-tivi-primary text-tivi-primary rounded-lg hover:bg-tivi-light transition-colors"
             >
-              Login
+              Entrar
             </a>
             <a
               href="#contato"
@@ -146,7 +146,7 @@ export default function Navbar() {
               }}
               className="px-4 py-2 bg-tivi-primary text-white rounded-lg hover:bg-opacity-90 transition-colors"
             >
-              Solicitar Acesso
+              Preview Demo
             </a>
           </div>
 
@@ -229,7 +229,7 @@ export default function Navbar() {
                 href="#"
                 className="block w-full py-2 text-center border border-tivi-primary text-tivi-primary rounded-lg hover:bg-tivi-light transition-colors"
               >
-                Login
+                Entrar
               </a>
               <a
                 href="#contato"
@@ -239,7 +239,7 @@ export default function Navbar() {
                 }}
                 className="block w-full py-2 text-center bg-tivi-primary text-white rounded-lg hover:bg-opacity-90 transition-colors"
               >
-                Solicitar Acesso
+                Preview Demo
               </a>
             </div>
           </nav>
